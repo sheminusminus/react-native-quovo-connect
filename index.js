@@ -2,7 +2,7 @@ import { NativeModules } from 'react-native';
 
 const { RNQuovoConnect } = NativeModules;
 
-if (!RNQuovoConnect && Platform.OS === 'web') {
+if (Platform.OS === 'web') {
 	RNQuovoConnect = require('./polyfill');
 }
 

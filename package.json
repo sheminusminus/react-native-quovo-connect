@@ -14,6 +14,7 @@
   ],
   "files": [
     "ios/",
+    "polyfill/",
     "index.js",
     "index.d.ts",
     "index.js.flow",
