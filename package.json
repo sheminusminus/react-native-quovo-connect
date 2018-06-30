@@ -23,5 +23,9 @@
   "repository": "https://github.com/sheminusminus/react-native-quovo-connect",
   "author": "Emily Kolar <emkolardev@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "react": "^16.4.1",
+    "react-native": "^0.55.4"
+  }
 }
