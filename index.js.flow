@@ -1,5 +1,5 @@
 // @flow
 
 declare module.exports: {
-  someFunction: () => boolean,
+  someFunction: (cb: (error: Error, message: string) => void) => void,
 };
