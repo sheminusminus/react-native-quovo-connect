@@ -1,0 +1,33 @@
+{
+  "name": "RNQuovoConnect",
+  "version": "0.1.0",
+  "description": "Quovo Connect for ReactNative",
+  "main": "quovoconnect.js",
+  "typings": "./quovoconnect.d.ts",
+  "scripts": {
+    "ship": "np"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "quovo",
+    "connect",
+    "events",
+    "cocoapod"
+  ],
+  "author": "Emily Kolar <emkolardev@gmail.com> (https://github.com/sheminusminus)",
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "np": "^3.0.4",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-test-renderer": "16.3.1"
+  },
+  "license": "MIT",
+  "jest": {
+    "preset": "react-native"
+  }
+}
