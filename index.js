@@ -1,9 +1,16 @@
 import { NativeModules } from 'react-native';
+
 const { RNQuovoConnect } = NativeModules;
 
+if (!RNQuovoConnect && Platform.OS === 'web') {
+	RNQuovoConnect = require('./polyfill');
+}
+
 export default {
-  someFunction: function () {
-    return RNQuovoConnect.someFunction();
+  someFunction: function(callback) {
+    return RNQuovoConnect.someFunction(callback);
+  },
+  someValue: function() {
+  	return RNQuovoConnect.someValue;
   }
 };
-

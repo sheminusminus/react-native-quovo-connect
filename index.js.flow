@@ -2,4 +2,5 @@
 
 declare module.exports: {
   someFunction: (cb: (error: Error, message: string) => void) => void,
+  someValue: () => boolean,
 };
