@@ -1,0 +1,27 @@
+{
+  "name": "react-native-quovo-connect",
+  "version": "0.1.0",
+  "description": "Quovo Connect for React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "quovo",
+    "connect",
+    "events",
+    "cocoapod"
+  ],
+  "files": [
+    "ios/",
+    "index.js",
+    "index.d.ts",
+    "index.js.flow",
+    "RNQuovoConnect.podspec"
+  ],
+  "types": "./index.d.ts",
+  "repository": "https://github.com/sheminusminus/react-native-quovo-connect",
+  "author": "Emily Kolar <emkolardev@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
